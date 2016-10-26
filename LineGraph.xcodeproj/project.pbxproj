@@ -15,6 +15,8 @@
 		E94D57961DC046AC000A5B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94D57941DC046AC000A5B14 /* LaunchScreen.storyboard */; };
 		E94D57A11DC046AC000A5B14 /* LineGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D57A01DC046AC000A5B14 /* LineGraphTests.swift */; };
 		E94D57AC1DC046AC000A5B14 /* LineGraphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D57AB1DC046AC000A5B14 /* LineGraphUITests.swift */; };
+		E94D57BB1DC072A5000A5B14 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D57BA1DC072A5000A5B14 /* GraphView.swift */; };
+		E94D57BD1DC072CB000A5B14 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94D57BC1DC072CB000A5B14 /* Graph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		E94D57A71DC046AC000A5B14 /* LineGraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineGraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94D57AB1DC046AC000A5B14 /* LineGraphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphUITests.swift; sourceTree = "<group>"; };
 		E94D57AD1DC046AC000A5B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94D57B91DC046D7000A5B14 /* LineGraph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LineGraph.playground; sourceTree = "<group>"; };
+		E94D57BA1DC072A5000A5B14 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		E94D57BC1DC072CB000A5B14 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = ../Graph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 		E94D577C1DC046AC000A5B14 = {
 			isa = PBXGroup;
 			children = (
+				E94D578C1DC046AC000A5B14 /* Main.storyboard */,
 				E94D57871DC046AC000A5B14 /* LineGraph */,
 				E94D579F1DC046AC000A5B14 /* LineGraphTests */,
 				E94D57AA1DC046AC000A5B14 /* LineGraphUITests */,
@@ -99,10 +105,12 @@
 		E94D57871DC046AC000A5B14 /* LineGraph */ = {
 			isa = PBXGroup;
 			children = (
-				E94D57881DC046AC000A5B14 /* AppDelegate.swift */,
+				E94D57BA1DC072A5000A5B14 /* GraphView.swift */,
+				E94D57BC1DC072CB000A5B14 /* Graph.swift */,
 				E94D578A1DC046AC000A5B14 /* ViewController.swift */,
-				E94D578C1DC046AC000A5B14 /* Main.storyboard */,
+				E94D57B91DC046D7000A5B14 /* LineGraph.playground */,
 				E94D57921DC046AC000A5B14 /* Assets.xcassets */,
+				E94D57881DC046AC000A5B14 /* AppDelegate.swift */,
 				E94D57941DC046AC000A5B14 /* LaunchScreen.storyboard */,
 				E94D57971DC046AC000A5B14 /* Info.plist */,
 				E94D578F1DC046AC000A5B14 /* LineGraph.xcdatamodeld */,
@@ -265,6 +273,8 @@
 				E94D57911DC046AC000A5B14 /* LineGraph.xcdatamodeld in Sources */,
 				E94D578B1DC046AC000A5B14 /* ViewController.swift in Sources */,
 				E94D57891DC046AC000A5B14 /* AppDelegate.swift in Sources */,
+				E94D57BB1DC072A5000A5B14 /* GraphView.swift in Sources */,
+				E94D57BD1DC072CB000A5B14 /* Graph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +316,7 @@
 				E94D578D1DC046AC000A5B14 /* Base */,
 			);
 			name = Main.storyboard;
+			path = LineGraph;
 			sourceTree = "<group>";
 		};
 		E94D57941DC046AC000A5B14 /* LaunchScreen.storyboard */ = {
